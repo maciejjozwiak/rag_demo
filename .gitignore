@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Data (PDFs are large, already indexed in vector_db)
+data/pdfs/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Don't ignore vector_db - it's needed for deployment!
+# vector_db/
