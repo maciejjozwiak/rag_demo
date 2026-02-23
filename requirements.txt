@@ -4,19 +4,19 @@ pdfplumber>=0.11.0
 # Vector Database
 chromadb>=1.5.0
 
-# Embeddings (pinned to compatible versions)
-numpy<2.0
-torch>=2.2.0,<2.3.0
-transformers>=4.57.0,<5.0.0
-sentence-transformers>=2.7.0,<3.0.0
-
-# CLI
-rich>=14.0.0
+# Embeddings
+numpy>=1.24.0,<2.0.0
+torch>=2.2.0
+transformers>=4.35.0
+sentence-transformers>=2.7.0
 
 # LLM Integration
 anthropic>=0.25.0
 openai>=1.0.0
 requests>=2.31.0
+
+# CLI
+rich>=14.0.0
 
 # Utilities
 python-dotenv>=1.0.0
